@@ -105,7 +105,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/Patrick_Bateman_r>TᴏɴʏSᴛᴀʀᴋ Bᴏᴛᴢ</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/Patrick_Bateman_r>𓆩•✘̶༎꯭ࠫ𝆺꯭𝅥𝗣𝗮𝘁𝗿𝗶𝗰𝗸᭄𝗕𝗮𝘁𝗲𝗺𝗮𝗻</a></b>
   
  <b>✯ Join here : <a href=https://t.me/avengerdoomsday1>☢Join my updates☢</a></b> 
   
