@@ -23,7 +23,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/271aa653b6b6e9dcdfd02.jpg https://graph.org/file/b61917d0c5509604de513.jpg https://graph.org/file/744e03bab800396621ca5.jpg https://graph.org/file/dec0fc9c9b75c9d94e51f.jpg https://graph.org/file/1c5529e5320112deaf8b6.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/4afad3acc7e35ab6b1a35-4262db63d9f78220b2.jpg https://graph.org/file/8b87f007c9765e50156bd-1fd704b161e757e87b.jpg https://graph.org/file/da912dfa4817a7dc8bb98-edd60c7ee634615f6b.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4499072a9f9f4ec1b9f5f.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
