@@ -1,4 +1,4 @@
-# Don't Remove Credit @Tonystark_botz
+# Don't Remove Credit @DigitalGalaxyHQ
 # Ask Doubt on telegram @Spider_Man_02
 
 import sys, glob, importlib, logging, logging.config, pytz, asyncio
@@ -17,7 +17,6 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 from pyrogram import Client, idle 
-from pyromod import listen
 from database.ia_filterdb import Media, Media2, choose_mediaDB, db as clientDB
 from database.users_chats_db import db
 from info import *
@@ -98,4 +97,3 @@ if __name__ == '__main__':
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
-
