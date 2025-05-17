@@ -20,7 +20,6 @@
 - [x] Refer To Get Premium
 - [x] Ai Spell Check 
 - [x] Custom Force Subscribe
-- [x] Rename Feature & On / Off
 - [x] Premium And Refer On / Off 
 - [x] Stream Feature On / Off 
 - [x] Url Shortner On / Off Feature 
@@ -92,7 +91,6 @@
 /restart  - 𝑟𝑒𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡 𝑠𝑒𝑟𝑣𝑒𝑟
 /fsub - 𝑎𝑑𝑑 𝑓𝑜𝑟𝑐𝑒 𝑠𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑐ℎ𝑎𝑛𝑛𝑒𝑙 𝑖𝑛 𝑔𝑟𝑜𝑢𝑝
 /nofsub - 𝑟𝑒𝑚𝑜𝑣𝑒 𝑜𝑟 𝑜𝑓𝑓 𝑓𝑜𝑟𝑐𝑒 𝑠𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝
-/rename - 𝑟𝑒𝑛𝑎𝑚𝑒 𝑦𝑜𝑢𝑟 𝑓𝑖𝑙𝑒
 /set_caption - 𝑎𝑑𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛 𝑓𝑜𝑟 𝑦𝑜𝑢𝑟 𝑟𝑒𝑛𝑎𝑚𝑒𝑑 𝑓𝑖𝑙𝑒
 /see_caption - 𝑠𝑒𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛
 /del_caption - 𝑑𝑒𝑙𝑒𝑡𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛
@@ -100,7 +98,6 @@
 /view_thumb - 𝑣𝑖𝑒𝑤 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑡ℎ𝑢𝑚𝑏𝑛𝑎𝑖𝑙
 /del_thumb - 𝑑𝑒𝑙𝑒𝑡𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑡ℎ𝑢𝑚𝑏𝑛𝑎𝑖𝑙
 /stream - 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒 𝑠𝑡𝑟𝑒𝑎𝑚 𝑎𝑛𝑑 𝑑𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝑙𝑖𝑛𝑘 𝑜𝑓 𝑦𝑜𝑢𝑟 𝑓𝑖𝑙𝑒
-/telegraph - 𝑔𝑒𝑡 𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑝ℎ 𝑙𝑖𝑛𝑘 𝑜𝑓 𝑎𝑛𝑦 𝑓𝑖𝑙𝑒 𝑢𝑛𝑑𝑒𝑟 5𝑚𝑏
 /stickerid - 𝑡𝑜 𝑔𝑒𝑡 𝑖𝑑 𝑎𝑛𝑑 𝑢𝑛𝑖𝑞𝑢𝑒 𝐼'𝑑 𝑜𝑓 𝑠𝑡𝑖𝑐𝑘𝑒𝑟
 /font - 𝑡𝑜 𝑔𝑒𝑡 𝑎𝑛𝑦 𝑡𝑦𝑝𝑒 𝑜𝑓 𝑓𝑜𝑛𝑡 𝑜𝑓 𝑎𝑛𝑦 𝑤𝑜𝑟𝑑
 /purgerequests - 𝑑𝑒𝑙𝑒𝑡𝑒 𝑎𝑙𝑙 𝑗𝑜𝑖𝑛 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑠 𝑓𝑟𝑜𝑚 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒
@@ -196,12 +193,12 @@ Edit info.py with variables as given below then run bot
 
 ## TELAGRAM SUPPORT 
 
-* [![Tony Stark BOTZ](https://img.shields.io/static/v1?label=Tony+Stark&message=BOTZ&color=critical)](https://t.me/TonyStark_Botz)
-* [![Tony Stark BOTZ Support](https://img.shields.io/static/v1?label=Tony+Stark&message=BOTZ+Support&color=critical)](https://t.me/TonyStarkBotzXSupport)
+* [![Tony Stark BOTZ](https://img.shields.io/static/v1?label=Tony+Stark&message=BOTZ&color=critical)](https://t.me/DigitalGalaxyHQ)
+* [![Tony Stark BOTZ Support](https://img.shields.io/static/v1?label=Tony+Stark&message=BOTZ+Support&color=critical)](https://t.me/DigitalGalaxyHQXSupport)
 
 ## Thanks to 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
- - Thanks To [Tony Stark Botz](https://t.me/TonyStark_Botz) To Modify And Add Amazing Feature In The Repo
+ - Thanks To [Tony Stark Botz](https://t.me/DigitalGalaxyHQ) To Modify And Add Amazing Feature In The Repo
  - Thanks To [Peter](https://t.me/Spider_Man_02) To Modify And Add Amazing Feature In The Repo
  - Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base Repo
  - Thanks To All Everyone In This Journey</b>
@@ -210,7 +207,7 @@ Edit info.py with variables as given below then run bot
  
 * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Spider_Man_02)
 
-<b>[Note To So Called Devs](https://t.me/TonyStark_Botz): 
+<b>[Note To So Called Devs](https://t.me/DigitalGalaxyHQ): 
 
 Fork The Repo And Edit As Per Your Needs.</b>
 
