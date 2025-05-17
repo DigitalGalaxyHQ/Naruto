@@ -332,4 +332,34 @@ async def auto_approve(client, message: ChatJoinRequest):
             ]]
         else:
             button = [[
+                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            ],[
+                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Spider_Man_02")
+            ]]
+        msg = await client.send_cached_media(
+            chat_id=message.from_user.id,
+            file_id=file_id,
+            caption=f_caption,
+            protect_content=True if pre == 'filep' else False,
+            reply_markup=InlineKeyboardMarkup(button)
+        )
+        btn = [[
+            InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+        ]]
+        k = await client.send_message(message.from_user.id, "<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+        await asyncio.sleep(600)
+        await msg.delete()
+        await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+        return
+    if AUTO_APPROVE_MODE == True:
+        if not await db.is_user_exist(message.from_user.id):
+            await db.add_user(message.from_user.id, message.from_user.first_name)
+        if message.chat.id == AUTH_CHANNEL:
+            return 
+        chat = message.chat 
+        user = message.from_user  
+        await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
+        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @DigitalGalaxyHQ</b>"
+        await client.send_message(chat_id=user.id, text=text)
                
