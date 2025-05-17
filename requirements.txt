@@ -1,5 +1,5 @@
 pyrofork==2.3.45
-pyromod==1.15
+pyromod==1.5
 tgcrypto 
 requests 
 bs4 
